@@ -1,0 +1,5 @@
+C:\Users\sahaa\bank code\database\obj\Debug\net6.0\database.csproj.AssemblyReference.cache
+C:\Users\sahaa\bank code\database\obj\Debug\net6.0\database.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sahaa\bank code\database\obj\Debug\net6.0\database.AssemblyInfoInputs.cache
+C:\Users\sahaa\bank code\database\obj\Debug\net6.0\database.AssemblyInfo.cs
+C:\Users\sahaa\bank code\database\obj\Debug\net6.0\database.csproj.CoreCompileInputs.cache

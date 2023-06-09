@@ -1,0 +1,219 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "MySqlConnector/2.2.5": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "database/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MySqlConnector": "2.2.5"
+        },
+        "compile": {
+          "bin/placeholder/database.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/database.dll": {}
+        }
+      },
+      "home/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MySqlConnector": "2.2.5"
+        },
+        "compile": {
+          "bin/placeholder/home.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/home.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "login/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MySqlConnector": "2.2.5"
+        },
+        "compile": {
+          "bin/placeholder/login.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/login.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "main/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MySqlConnector": "2.2.5"
+        },
+        "compile": {
+          "bin/placeholder/main.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/main.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "MySqlConnector/2.2.5": {
+      "sha512": "6sinY78RvryhHwpup3awdjYO7d5hhWahb5p/1VDODJhSxJggV/sBbYuKK5IQF9TuzXABiddqUbmRfM884tqA3Q==",
+      "type": "package",
+      "path": "mysqlconnector/2.2.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net461/MySqlConnector.dll",
+        "lib/net461/MySqlConnector.xml",
+        "lib/net471/MySqlConnector.dll",
+        "lib/net471/MySqlConnector.xml",
+        "lib/net6.0/MySqlConnector.dll",
+        "lib/net6.0/MySqlConnector.xml",
+        "lib/net7.0/MySqlConnector.dll",
+        "lib/net7.0/MySqlConnector.xml",
+        "lib/netcoreapp3.1/MySqlConnector.dll",
+        "lib/netcoreapp3.1/MySqlConnector.xml",
+        "lib/netstandard2.0/MySqlConnector.dll",
+        "lib/netstandard2.0/MySqlConnector.xml",
+        "lib/netstandard2.1/MySqlConnector.dll",
+        "lib/netstandard2.1/MySqlConnector.xml",
+        "logo.png",
+        "mysqlconnector.2.2.5.nupkg.sha512",
+        "mysqlconnector.nuspec"
+      ]
+    },
+    "database/1.0.0": {
+      "type": "project",
+      "path": "../database/database.csproj",
+      "msbuildProject": "../database/database.csproj"
+    },
+    "home/1.0.0": {
+      "type": "project",
+      "path": "../home/home.csproj",
+      "msbuildProject": "../home/home.csproj"
+    },
+    "login/1.0.0": {
+      "type": "project",
+      "path": "../login/login.csproj",
+      "msbuildProject": "../login/login.csproj"
+    },
+    "main/1.0.0": {
+      "type": "project",
+      "path": "../main/main.csproj",
+      "msbuildProject": "../main/main.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "MySqlConnector >= 2.2.5",
+      "database >= 1.0.0",
+      "home >= 1.0.0",
+      "login >= 1.0.0",
+      "main >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sahaa\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sahaa\\bank code\\account\\Account.csproj",
+      "projectName": "Account",
+      "projectPath": "C:\\Users\\sahaa\\bank code\\account\\Account.csproj",
+      "packagesPath": "C:\\Users\\sahaa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sahaa\\bank code\\account\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\sahaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\sahaa\\bank code\\database\\database.csproj": {
+              "projectPath": "C:\\Users\\sahaa\\bank code\\database\\database.csproj"
+            },
+            "C:\\Users\\sahaa\\bank code\\home\\home.csproj": {
+              "projectPath": "C:\\Users\\sahaa\\bank code\\home\\home.csproj"
+            },
+            "C:\\Users\\sahaa\\bank code\\login\\login.csproj": {
+              "projectPath": "C:\\Users\\sahaa\\bank code\\login\\login.csproj"
+            },
+            "C:\\Users\\sahaa\\bank code\\main\\main.csproj": {
+              "projectPath": "C:\\Users\\sahaa\\bank code\\main\\main.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "MySqlConnector": {
+            "target": "Package",
+            "version": "[2.2.5, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
